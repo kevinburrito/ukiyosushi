@@ -1,5 +1,8 @@
 var imageIndex = 1;
-buttonClick(imageIndex);
+
+function onStart(){
+   buttonClick(imageIndex);
+}
 
 function currentSlide(n)
 {
